@@ -117,7 +117,7 @@ WorkingDirectory=$STEAMDIR/steamapps/common/ARK Survival Ascended Dedicated Serv
 Environment=XDG_RUNTIME_DIR=/run/user/$(id -u)
 Environment="STEAM_COMPAT_CLIENT_INSTALL_PATH=$STEAMDIR"
 Environment="STEAM_COMPAT_DATA_PATH=$STEAMDIR/steamapps/compatdata/2430930"
-ExecStart=$STEAMDIR/compatibilitytools.d/$PROTON_NAME/proton run ArkAscendedServer.exe TheIsland_WP?listen
+ExecStart=$STEAMDIR/compatibilitytools.d/$PROTON_NAME/proton run ArkAscendedServer.exe ScorchedEarth_WP?listen
 Restart=on-failure
 RestartSec=20s
 
